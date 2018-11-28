@@ -4,6 +4,9 @@
 // Swipe functions for Bootstrap Carousel
 $('.carousel').bcSwipe({ threshold: 50 });
 
+function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'uk', includedLanguages: 'en,fa,fr,so,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                        }
 // ;(function() {
 // "use strict";
 
