@@ -9007,7 +9007,8 @@ button:focus {
 
 @media (min-width: 576px) {
   .border-width-ten {
-    border: 10px solid #007bff; } }
+    border: 10px solid #007bff;
+    padding: 25px; } }
 
 @media (max-width: 1199.98px) {
   .navbar-collapse {
@@ -9048,10 +9049,10 @@ button:focus {
   position: relative; }
   .h-six-white-color:before {
     content: "";
-    width: 95px;
+    width: 100px;
     height: 3px;
     background-color: #ffffff;
-    margin-left: 45px;
+    margin-left: 80px;
     bottom: 0px;
     position: absolute; }
 
