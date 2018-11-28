@@ -1,2 +1,2 @@
 # UA_Language_Academy
-https://sa-fardin.github.io/akad_bootstrap_version/
+https://ua-language-academy.github.io/home/
