@@ -11,3 +11,5 @@ $('.carousel').bcSwipe({ threshold: 50 });
 // alert(message);
 
 // })();
+
+//@prepros-append ../bootstrap-4.1.3/dist/js/bootstrap.js
