@@ -11,8 +11,11 @@
     </head>
     <body>
         <header class="header">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+    <polygon fill="#f8f9fa" points="0,100 100,0 100,100"/>
+  </svg>
             <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
-                <a class="navbar-brand" href="#whoweare">
+                <a class="nav-link text-light" href="#whoweare">
                     <img alt="UA Language Academy Logo" class="img-fluid swing" src="images/ua-small-logo.png"/>
                     Української Мовна Академія
                 </a>
@@ -97,7 +100,7 @@
                     </div>
                 </div>
             </section>
-            <section class="program-description-section" id="program-description">
+            <section class="program-description-section bg-gradient-color" id="program-description">
                 <div class="container go-left py-75">
                     <div class="row">
                         <div class="col-xl-6 mx-auto">
@@ -419,7 +422,7 @@
                     </div>
                 </div>
             </section>
-            <section class="gallery-section" id="gallery">
+            <section class="gallery-section bg-light" id="gallery">
                 <div class="container go-left py-75">
                     <div class="row px-25 pb-3">
                         <div class="col-xl-6 mx-auto">
@@ -429,13 +432,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-3">
+                        <div class="col-lg-3">
                             <div>
-                                <h1 class="text-uppercase">
+                                <h1 class="text-uppercase d-flex justify-content-center d-md-flex justify-content-md-center">
                                     вибрати категорію
                                 </h1>
                             </div>
-                            <div aria-orientation="vertical" class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+                            <div aria-orientation="vertical" class="nav flex-column my-3 flex-lg-column flex-md-row my-md-3 flex-sm-column my-sm-3 my-lg-0 nav-pills" id="v-pills-tab" role="tablist">
                                 <a aria-controls="v-pills-all" aria-selected="true" class="nav-link active text-uppercase" data-toggle="pill" href="#v-pills-all" id="v-pills-all-tab" role="tab">
                                     Все
                                 </a>
@@ -450,7 +453,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-9">
+                        <div class="col-lg-9">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div aria-labelledby="v-pills-all-tab" class="tab-pane fade show active" id="v-pills-all" role="tabpanel">
                                     <div class="card-columns">
@@ -569,7 +572,7 @@
                     </div>
                 </div>
             </section>
-            <section class="contacts-section bg-light" id="contacts">
+            <section class="contacts-section bg-gradient-color" id="contacts">
                 <div class="container go-right py-75">
                     <div class="row">
                         <div class="col-xl-6 mx-auto">
@@ -600,24 +603,29 @@
                 </div>
             </section>
         </main>
-        <footer class="footer-section bg-primary">
+        <footer class="footer-section bg-light">
             <div class="container py-20">
                 <div class="row">
-                    <div class="col-xl-5 d-flex justify-content-center align-items-center py-2">
-                        <h6 class="text-white text-center" translate="no">
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center py-2">
+                        <h6 class="text-dark text-center" translate="no">
                             © 2018 UA Language Academy. All right reserved.
                         </h6>
                     </div>
-                    <div class="col-xl-2 d-flex justify-content-center align-items-center py-2">
-                        <a class="" href="">
-                            <img alt="UA Language Academy Logo" class="img-fluid" src="images/ua-small-logo.png"/>
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center py-2">
+                        <a class="nav-link text-dark" href="#whoweare">
+                            <img alt="UA Language Academy Logo" class="img-fluid swing" src="images/ua-small-logo.png"/>Української Мовна Академія
                         </a>
                     </div>
-                    <div class="col-xl-5 d-flex justify-content-center align-items-center py-2">
-                        <h6 class="text-white text-center" translate="no">
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center py-2">
+                        <h6 class="text-dark text-center" translate="no">
                             Made by SA Fardin Ghazanfari & SA Masih Ghazanfari
                         </h6>
                     </div>
+                        </div>
+                    </div>   
+                    
                 </div>
             </div>
         </footer>

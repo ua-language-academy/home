@@ -8990,9 +8990,29 @@ button:focus {
   outline: none; }
 
 .header {
-  background-image: url("../images/header-bg.png");
+  position: relative;
+  height: 550px;
+  background: url("../images/ua-header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
+
+.bg-gradient-color {
+  background: #2980B9;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#6DD5FA), to(#2980B9));
+  background: -webkit-linear-gradient(left, #FFFFFF, #6DD5FA, #2980B9);
+  background: -o-linear-gradient(left, #FFFFFF, #6DD5FA, #2980B9);
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background: transparent; }
 
 .table-blue-line {
   position: relative; }
@@ -9032,7 +9052,7 @@ button:focus {
 
 .h3-underline {
   position: relative;
-  padding-bottom: 5px; }
+  padding-bottom: 3px; }
   .h3-underline:before {
     content: "";
     position: absolute;

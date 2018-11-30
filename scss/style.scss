@@ -2,14 +2,31 @@ $spacer: 1rem;
 $spacers: ();
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 15: 15px, 20: 20px, 25: 25px, 50: 50px, 75: 75px, 100: 100px, 125: 125px, 150: 150px, 175: 175px, 190: 190px, 250: 250px, ), $spacers);
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../bootstrap-4.1.3/scss/bootstrap.scss";
 button:focus {
     outline: none;
 }
 .header {
-    background-image: url("../images/header-bg.png");
+    position: relative;
+    height: 550px;
+    background: url("../images/ua-header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.bg-gradient-color {
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: transparent;
 }
 .table-blue-line {
     position: relative;
@@ -54,7 +71,7 @@ button:focus {
 }
 .h3-underline {
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
     &:before {
         content: "";
         position: absolute;
