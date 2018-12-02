@@ -8992,7 +8992,7 @@ button:focus {
 .header {
   position: relative;
   height: 550px;
-  background: url("../images/ua-header-bg.jpg");
+  background: #d2d0d5 url("../images/ua-header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
 
