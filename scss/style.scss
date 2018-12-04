@@ -21,6 +21,17 @@ button:focus {
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.table-title-bg {
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.table-foreveryone-bg {
+    background-color: rgb(252, 252, 181);
+}
 svg {
     position: absolute;
     bottom: 0;
@@ -28,17 +39,8 @@ svg {
     height: 200px;
     background: transparent;
 }
-.table-blue-line {
-    position: relative;
-    &:before {
-        content: "";
-        width: 1110px;
-        height: 5px;
-        background: #007bff;
-        left: 0;
-        bottom: 0;
-        position: absolute;
-    }
+.border-bottom-dark {
+    border-bottom: 5px solid #000000;
 }
 // Styles
 @include media-breakpoint-up(sm) {
@@ -55,9 +57,6 @@ svg {
         background: #7d7d7d;
         z-index: 1;
         padding: 15px;
-    }
-    .timetable-places-section {
-        display: none;
     }
 }
 .h-one-white-color {
