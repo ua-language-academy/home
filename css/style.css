@@ -9021,6 +9021,9 @@ button:focus {
 .table-foreveryone-bg {
   background-color: #fcfcb5; }
 
+.table-for-new-student {
+  background-color: white; }
+
 svg {
   position: absolute;
   bottom: 0;
